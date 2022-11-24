@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;;
+    font-weight: bold;
+    color: rgb(109, 0, 0);
+    background: -webkit-linear-gradient(top, rgb(129, 202, 180) 22%,rgb(190, 233, 220) 65%)/* rgb(129, 202, 180) */;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+a {
+    text-decoration: none;
+    color: rgb(203, 0, 0);
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 25px;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+}
+.top-info {
+    text-align: center;
+    /* width: 45%; */
+    text-align: center;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.card {
+    border: 1px darkred solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.bg-green {
+    background-color: #7bcd7b;
+}
+.bg-yellow {
+    background-color: rgb(205, 208, 139);
+}
+.bg-blue {
+    background-color:#97adff;
+}
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+.avatar {
+    border-radius: 70px;
+    box-shadow: 13px 8px 4px 0px rgb(0 0 0 / 25%);
+    height: 250px;
+}
+.webs {
+    text-align: center;
+}
+.btn-container {
+    text-align: center;
+    padding: 4px;
+}
+.btn {
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: #404040;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 1s;
+    opacity: .9;
+}
+.btn:hover {
+    opacity: 1;
+    scale: 1.1;
+}
+.bg-blue ul li {
+    margin-bottom: 10px;
+}
+.bg-blue ul li:nth-child(even) {
+    color: rgb(210, 29, 29);
+}
+.table {
+    width: 100%;
+    font-size: 1.4rem;
+}
+.table td, .table th {
+    padding-bottom: 10px;
+}
+.table tr:nth-child(odd):not(.table thead tr) {
+    color: rgb(210, 29, 29);
+}
+.table td:nth-child(1n+2) {
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    font-size: 20px;
+    font-family: inherit;
+    padding: 5px;
+}
+.contact-item {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 20px;
+}
+textarea {
+    width: 100%;
+    font-size: 25px;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+}
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+@media (max-width: 830px) {
+    .top-info {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .info {
+        text-align: center;
+    }
+    .card {
+        overflow: hidden;
+    }
+    .contact-item {
+        width: 100%;
+        display: block;
+    }
+    .table {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 650px) {
+    .webs a {
+        display: block;
+        width: 100%;
+        border-bottom: darkred 2px solid;
+        padding: 5px;
+    }
+    .webs b {
+        display: none;
+    }
+    .table {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
