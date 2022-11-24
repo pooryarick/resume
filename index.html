@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, cv">
+    <meta name="description" content="Это мой сайт-резюме">
+    <title>Мой сайт-резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            
+            <div class="top-info">
+                <img class="avatar" src="Avatar.jpg" alt="Аватарка">
+            </div>
+            <div class="top-info">
+                <div class="info-text">
+                    <h1>Ярослав Потапов</h1>
+                    
+                    <p>Я учусь программированию в <strong>Result School</strong>.</p>
+                    <p>В свободное время я <em>читаю</em> или <em>занимаюсь программированием</em>.</p>
+                </div>
+            </div>
+            <div class="webs">
+                <h3>Список социальных сетей:</h3>
+                <p><a target="_blank" href="https://vk.com">ВКонтакте</a> <b>|</b> <a target="_blank" href="https://ok.ru">Одноклассники</a> <b>|</b> <a target="_blank" href="https://www.youtube.com/">Youtube</a></p> 
+            </div>
+            
+        </div>
+        <div class="card bg-blue">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Программирование</li>
+                <li>Каратэ</li>
+                <li>Чтение</li>
+                <li>Вёрстка сайтов</li>
+            </ul>
+        </div>
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Зарплата</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Вёрстка сайтов</td>
+                        <td>5000</td>
+                        <td>2022 — сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>Программирование</td>
+                        <td>7000</td>
+                        <td>2018 — сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>Создание презентаций</td>
+                        <td>1200</td>
+                        <td>2017 — сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card bg-yellow">
+            <h2>Связаться со мной</h2>
+
+            <form>
+                <div class="contact-item">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div  class="contact-item">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea cols="20" rows="5" id="message" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <div class="btn-container">
+                    <input class="btn" type="submit" value="Отправить!">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
